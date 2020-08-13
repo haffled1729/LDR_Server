@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="3">
+    <title>Light Measurements</title>
+  </head>
+  <body style="text-align: center;">
+    <h1>LDR Values</h1>
+    <ul style="list-style-position: inside;">
+      <%for(var i=0; i < values.length; i++){%> //Loop across the set of values
+        <li><em><%=times[i]%>: <%=values[i]%></em></li>
+      <%}%>
+    </ul>
+  </body>
+</html>
